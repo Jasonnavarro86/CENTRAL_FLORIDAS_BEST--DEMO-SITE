@@ -2006,6 +2006,11 @@ p {
   font-family: 'Fa solid 900', sans-serif;
 }
 
+.section-6 {
+  height: 20px;
+  background-color: #26acc7;
+}
+
 html.w-mod-js *[data-ix="hero-title"] {
   opacity: 0;
 }
@@ -2408,7 +2413,7 @@ html.w-mod-js *[data-ix="process-bar-fill-30"] {
     right: 100px;
     width: 60px;
     height: 60px;
-    padding-top: 17px;
+    padding-top: 21px;
     padding-right: 0px;
     padding-left: 0px;
     border-style: solid;
@@ -2775,7 +2780,7 @@ html.w-mod-js *[data-ix="process-bar-fill-30"] {
     right: 40px;
     width: 50px;
     height: 50px;
-    padding-top: 12px;
+    padding-top: 17px;
   }
   .footer-row {
     padding-right: 0px;
@@ -2864,17 +2869,42 @@ html.w-mod-js *[data-ix="process-bar-fill-30"] {
   .div-block-3 {
     height: 410px;
   }
+  .div-block-3:hover {
+    background-image: url('../images/12079088_454377401353989_5730169261464691982_n.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
   .div-block-4 {
     height: 410px;
+  }
+  .div-block-4:hover {
+    background-image: url('../images/17795961_690949191030141_3053024485702295978_n.jpg');
+    background-position: 0px 0px;
+    background-size: cover;
   }
   .div-block-5 {
     height: 467px;
   }
+  .div-block-5:hover {
+    background-image: url('../images/16472980_654571534667907_50661812223583073_n.jpg');
+    background-position: 0px 0px;
+    background-size: cover;
+  }
   .div-block-6 {
     height: 490px;
   }
+  .div-block-6:hover {
+    background-image: url('../images/539817_237415016383563_2145707680_n.jpg');
+    background-position: 0px 0px;
+    background-size: cover;
+  }
   .div-block-7 {
     height: 410px;
+  }
+  .div-block-7:hover {
+    background-image: url('../images/17798988_692961937495533_5741491686880891385_n.jpg');
+    background-position: 0px 0px;
+    background-size: cover;
   }
   .grid-4 {
     grid-template-areas: ". . . . . ." ". . . . . ." ". . . . . ." ". . . . . ." ". . . . . .";
@@ -3084,9 +3114,10 @@ html.w-mod-js *[data-ix="process-bar-fill-30"] {
     margin-bottom: 14px;
   }
   .menu-button {
+    right: 25px;
     width: 40px;
     height: 40px;
-    padding-top: 7px;
+    padding-top: 15px;
   }
   .footer-list-text {
     font-size: 13px;
@@ -3148,9 +3179,11 @@ html.w-mod-js *[data-ix="process-bar-fill-30"] {
     max-width: 25%;
   }
   .image-11 {
-    left: 6px;
+    left: 10px;
     top: 6px;
-    max-width: 21%;
+    width: 74px;
+    max-width: 74px;
+    min-width: 74px;
   }
   .text-block-2 {
     margin-top: -41px;
@@ -3166,19 +3199,21 @@ html.w-mod-js *[data-ix="process-bar-fill-30"] {
     background-position: 50% 50%;
   }
   .div-block-4:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(null), to(null)), url('../images/17795961_690949191030141_3053024485702295978_n.jpg');
-    background-image: linear-gradient(180deg, null, null), url('../images/17795961_690949191030141_3053024485702295978_n.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), url('../images/17795961_690949191030141_3053024485702295978_n.jpg');
+    background-image: linear-gradient(180deg, transparent, transparent), url('../images/17795961_690949191030141_3053024485702295978_n.jpg');
     background-position: 0px 0px, 50% 50%;
   }
   .div-block-7 {
     background-position: 50% 50%;
   }
   .div-block-7:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(null), to(null)), url('../images/17798988_692961937495533_5741491686880891385_n.jpg');
-    background-image: linear-gradient(180deg, null, null), url('../images/17798988_692961937495533_5741491686880891385_n.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), url('../images/17798988_692961937495533_5741491686880891385_n.jpg');
+    background-image: linear-gradient(180deg, transparent, transparent), url('../images/17798988_692961937495533_5741491686880891385_n.jpg');
     background-position: 0px 0px, 50% 50%;
   }
   .heading-9 {
+    width: 100%;
+    padding-left: 85px;
     font-size: 18px;
   }
   .div-block-8 {
