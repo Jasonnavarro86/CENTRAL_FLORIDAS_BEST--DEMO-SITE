@@ -169,7 +169,7 @@ p {
   left: 0px;
   top: 0px;
   right: 0px;
-  overflow: hidden;
+  overflow: visible;
   max-height: 99%;
   margin-top: -1px;
   padding-top: 0px;
@@ -1826,6 +1826,7 @@ p {
   left: -82px;
   top: 4px;
   max-width: 26%;
+  margin-top: -1px;
   font-size: 15px;
 }
 
@@ -2556,9 +2557,10 @@ html.w-mod-js *[data-ix="process-bar-fill-30"] {
   .menu-button {
     position: absolute;
     right: 57px;
-    width: 60px;
-    height: 57px;
-    padding-top: 21px;
+    width: 67px;
+    height: 77px;
+    margin-top: -10px;
+    padding-top: 33px;
     padding-right: 0px;
     padding-left: 0px;
     border-style: solid;
@@ -2729,6 +2731,7 @@ html.w-mod-js *[data-ix="process-bar-fill-30"] {
 
 @media (max-width: 767px) {
   .navbar {
+    overflow: visible;
     padding: 15px 25px 9px 22px;
   }
   .hero {
@@ -3036,6 +3039,7 @@ html.w-mod-js *[data-ix="process-bar-fill-30"] {
     left: -63px;
     top: 0px;
     max-width: 25%;
+    margin-top: -5px;
   }
   .div-block-3 {
     height: 410px;
@@ -3364,6 +3368,7 @@ html.w-mod-js *[data-ix="process-bar-fill-30"] {
   .image-8 {
     left: -60px;
     max-width: 25%;
+    margin-top: -2.1px;
   }
   .image-11 {
     left: 10px;
