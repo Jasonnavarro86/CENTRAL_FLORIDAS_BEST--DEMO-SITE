@@ -518,7 +518,7 @@ p {
   margin-bottom: 0px;
   font-family: Raleway, sans-serif;
   color: hsla(190.06211180124222, 0.00%, 0.00%, 1.00);
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 200;
 }
 
@@ -1825,7 +1825,7 @@ p {
   position: absolute;
   left: -82px;
   top: 4px;
-  max-width: 28%;
+  max-width: 30%;
   margin-top: -1px;
   font-size: 15px;
 }
